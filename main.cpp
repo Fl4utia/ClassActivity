@@ -5,5 +5,8 @@ int main ()  {
   double sum; 
   cout << "How may numbers are you going to type "; 
   cin>> n; 
-  return 0; 
+  for (int c = 1; c < n; c++) { 
+    cout << c << endl; 
+  }
+  return 0;
 }
